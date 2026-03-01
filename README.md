@@ -22,6 +22,7 @@ In this project, I evaluated four machine learning models to classify HSI data i
 * `random_forest_model.pkl`: The saved model file (Joblib format).
 * `inference.py`: Python script to load the model and classify your own `.tif` images.
 * `requirements.txt`: List of required Python packages.
+* `HSI_Classificaion_Result.png`: Reference classified map.
 
 
 
