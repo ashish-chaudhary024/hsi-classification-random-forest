@@ -41,8 +41,10 @@ cd hsi-classification-random-forest```
 --- 
 ### 2. Repository Structure
 Ensure your folder contains:  
+* `README.md`: The project overview
+* `LICENSE`: The MIT permissions
+* `requirements.txt`: The library list
 * `random_forest_model.pkl`: The trained model
-* `HSI_img.tif`: Your hyperspectral image (TIFF format)
 * `inference.py`: The Python script provided
 ---
 
@@ -55,5 +57,12 @@ pip install -r requirements.txt
 ```bash
 python inference.py
 ```
+---
+## 🎓 Acknowledgments  
 
+This project was developed as part of the coursework under **Dr. Maitiniyazi Maimaitijiang** at South Dakota State University. Special thanks to the instructor for the guidance on hyperspectral data processing and machine learning applications in remote sensing.
+
+---
+## ⚖️ License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
