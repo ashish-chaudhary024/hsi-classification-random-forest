@@ -23,6 +23,8 @@ In this project, I evaluated four machine learning models to classify HSI data i
 * `inference.py`: Python script to load the model and classify your own `.tif` images.
 * `requirements.txt`: List of required Python packages.
 
+
+
 ---
 
 ## 🚀 How to Use the Model
@@ -31,5 +33,26 @@ Follow these steps to implement the model on your own hyperspectral data:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/hsi-classification-random-forest.git](https://github.com/YOUR_USERNAME/hsi-classification-random-forest.git)
-cd hsi-classification-random-forest
+
+git clone [https://github.com/ashish-chaudhary024/hsi-classification-random-forest.git]
+cd hsi-classification-random-forest```
+```
+--- 
+### 2. Repository Structure
+Ensure your folder contains:  
+* `random_forest_model.pkl`: The trained model
+* `HSI_img.tif`: Your hyperspectral image (TIFF format)
+* `inference.py`: The Python script provided
+---
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+---
+### 4. Run Inference
+```bash
+python inference.py
+```
+
+
